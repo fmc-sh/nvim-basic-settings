@@ -1,6 +1,9 @@
 -- Disable default Vim syntax highlighting
 vim.cmd("syntax off")
-print("THEME SET")
+
+-- Set the background color to none (transparent)
+vim.cmd([[hi Normal guibg=NONE ctermbg=NONE]])
+
 -- Load the color scheme
 local colors = require("nvim-basic-settings.themes.pastel1_own")
 
