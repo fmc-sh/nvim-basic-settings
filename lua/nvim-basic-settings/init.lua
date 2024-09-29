@@ -2,5 +2,5 @@
 local M = {}
 
 function M.setup() end
-local colors = require("nvim-basic-settings.theme")
+-- Apply settings
 return M
